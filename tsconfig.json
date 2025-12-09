@@ -1,22 +1,20 @@
-<description>移除 types: ["node"] 限制，恢复默认配置以加载所有类型文件（包括新的 env.d.ts）。</description>
-<content><![CDATA[{
-"compilerOptions": {
-"target": "ES2020",
-"useDefineForClassFields": true,
-"lib": ["ES2020", "DOM", "DOM.Iterable"],
-"module": "ESNext",
-"skipLibCheck": true,
-"moduleResolution": "bundler",
-"allowImportingTsExtensions": true,
-"resolveJsonModule": true,
-"isolatedModules": true,
-"noEmit": true,
-"jsx": "react-jsx",
-"strict": true,
-"noUnusedLocals": false,
-"noUnusedParameters": false,
-"noFallthroughCasesInSwitch": true
-},
-"include": ["**/*.ts", "**/*.tsx"]
-}]]></content>
-</changes>
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "useDefineForClassFields": true,
+    "lib": ["ES2020", "DOM", "DOM.Iterable"],
+    "module": "ESNext",
+    "skipLibCheck": true,
+    "moduleResolution": "bundler",
+    "allowImportingTsExtensions": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx",
+    "strict": true,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "noFallthroughCasesInSwitch": true
+  },
+  "include": ["**/*.ts", "**/*.tsx"]
+}
