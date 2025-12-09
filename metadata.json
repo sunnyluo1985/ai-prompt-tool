@@ -1,0 +1,5 @@
+{
+  "name": "AI 提示词优化工具",
+  "description": "一个智能工具，可将基本的用户输入转化为针对大型语言模型（LLM）优化的结构化提示词。",
+  "requestFramePermissions": []
+}
