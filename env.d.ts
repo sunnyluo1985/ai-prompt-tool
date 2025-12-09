@@ -1,4 +1,4 @@
-<description>完善类型定义，显式声明 process 变量，确保 IDE 和编译器都能正确识别。</description>
+<description>补全 env.d.ts，增加对 global process 变量的显式声明，防止运行时可能出现的“process is not defined”错误。</description>
 <content><![CDATA[/// <reference types="vite/client" />
 declare namespace NodeJS {
 interface ProcessEnv {

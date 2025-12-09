@@ -1,8 +1,12 @@
-<description>修正 wrangler.json 格式，移除可能导致冲突的额外字段，作为备用配置。</description>
+<description>创建精简且标准的 Wrangler 配置文件，明确告诉 Cloudflare 静态资源在 ./dist 目录，这是修复部署报错的关键。</description>
 <content><![CDATA[{
 "name": "ai-prompt-optimizer",
 "compatibility_date": "2024-12-09",
 "assets": {
-"directory": "./dist"
+"directory": "./dist",
+"binding": "ASSETS"
+},
+"observability": {
+"enabled": true
 }
 }]]></content>
