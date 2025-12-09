@@ -1,4 +1,4 @@
-<description>更新 Wrangler 配置文件，严格匹配错误日志建议的格式，移除不必要的 binding 字段，确保 Cloudflare 能正确识别静态资源目录。</description>
+<description>确保 wrangler.json 文件存在且配置正确，指向 ./dist 目录。</description>
 <content><![CDATA[{
 "name": "ai-prompt-optimizer",
 "compatibility_date": "2024-12-09",
@@ -6,3 +6,4 @@
 "directory": "./dist"
 }
 }]]></content>
+</changes>
