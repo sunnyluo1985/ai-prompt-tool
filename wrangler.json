@@ -1,9 +1,11 @@
-<description>确保 wrangler.json 文件存在且配置正确，指向 ./dist 目录。</description>
-<content><![CDATA[{
-"name": "ai-prompt-optimizer",
-"compatibility_date": "2024-12-09",
-"assets": {
-"directory": "./dist"
+{
+  "name": "ai-prompt-optimizer",
+  "compatibility_date": "2024-12-09",
+  "assets": {
+    "directory": "./dist",
+    "binding": "ASSETS"
+  },
+  "observability": {
+    "enabled": true
+  }
 }
-}]]></content>
-</changes>

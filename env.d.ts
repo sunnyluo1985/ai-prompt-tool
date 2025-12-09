@@ -1,5 +1,3 @@
-/// <reference types="vite/client" />
-
 declare namespace NodeJS {
   interface ProcessEnv {
     readonly API_KEY: string;
@@ -7,7 +5,3 @@ declare namespace NodeJS {
     [key: string]: string | undefined;
   }
 }
-
-declare var process: {
-  env: NodeJS.ProcessEnv;
-};
