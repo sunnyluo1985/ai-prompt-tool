@@ -1,14 +1,8 @@
-Updated files:
-wrangler.json
-<description>新增 Cloudflare Wrangler 配置文件，明确指定静态资源目录为 ./dist，解决部署时的 entry-point 错误。</description>
+<description>修正 wrangler.json 格式，移除可能导致冲突的额外字段，作为备用配置。</description>
 <content><![CDATA[{
 "name": "ai-prompt-optimizer",
-"compatibility_date": "2024-09-23",
+"compatibility_date": "2024-12-09",
 "assets": {
-"directory": "./dist",
-"binding": "ASSETS"
-},
-"observability": {
-"enabled": true
+"directory": "./dist"
 }
 }]]></content>

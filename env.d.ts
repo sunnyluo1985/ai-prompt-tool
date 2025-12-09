@@ -1,4 +1,4 @@
-<description>补充缺失的 process 变量声明，确保 TypeScript 能够正确识别 process.env。</description>
+<description>完善类型定义，显式声明 process 变量，确保 IDE 和编译器都能正确识别。</description>
 <content><![CDATA[/// <reference types="vite/client" />
 declare namespace NodeJS {
 interface ProcessEnv {
