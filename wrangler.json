@@ -1,0 +1,15 @@
+Updated files:
+wrangler.json
+<description>新增 Wrangler 配置文件，指定静态资源目录为 ./dist，解决部署时找不到入口的错误。</description>
+<content><![CDATA[{
+"name": "ai-prompt-optimizer",
+"compatibility_date": "2024-09-23",
+"assets": {
+"directory": "./dist",
+"binding": "ASSETS"
+},
+"observability": {
+"enabled": true
+}
+}]]></content>
+</changes>
