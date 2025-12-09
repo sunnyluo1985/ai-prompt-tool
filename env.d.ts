@@ -1,4 +1,4 @@
-<description>补全 env.d.ts，增加对 global process 变量的显式声明，防止运行时可能出现的“process is not defined”错误。</description>
+<description>再次确认环境类型定义，确保全局变量声明完整。</description>
 <content><![CDATA[/// <reference types="vite/client" />
 declare namespace NodeJS {
 interface ProcessEnv {
